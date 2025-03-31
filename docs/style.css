@@ -1,23 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #2d2d9e;
-    font-weight: bold;
-    color: #070707;
+    color: #333;
 }
 
-main {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-section {
-    margin-bottom: 40px;
-}
-
+/* Navbar fixa no topo */
 header {
     position: fixed;
     top: 0;
@@ -37,18 +31,30 @@ header {
 }
 
 .navbar a {
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 10px 20px;
     font-size: 18px;
-    font-weight: bold;
 }
 
 .navbar a:hover {
-    background-color: #6c6c6c;
+    background-color: #575757;
     border-radius: 5px;
 }
 
+/* Adiciona espaçamento para o conteúdo abaixo da navbar fixa */
+main {
+    margin-top: 60px;
+    /* Ajuste para que o conteúdo não fique embaixo da navbar */
+    padding: 20px;
+}
+
+/* Estilo das seções */
+section {
+    margin-bottom: 40px;
+}
+
+/* Estilo da seção Sobre */
 #sobre {
     background-color: #378e70;
     padding: 30px;
@@ -65,24 +71,88 @@ header {
 }
 
 .sobre-mim img {
-    width: 180px;
+    width: 190px;
     height: 180px;
-    border-radius: 40%;
+    border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #737373;
-    box-shadow: 0 4px 15px rgba(155, 136, 136, 0.407);
+    border: 5px solid #333;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .sobre-mim p {
     font-size: 18px;
     line-height: 1.8;
-    color: #555;
+    color: #ffffff;
     max-width: 700px;
     text-align: justify;
     margin-top: 15px;
 }
 
-#foto-perfil {
-    width: 350px;
-    height: 350px;
+#projetos{
+    background-color: #66bf00;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#projetos h2{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.projetos-academicos h3 {
+    margin-top: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #2a195d;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.projetos-academicos .projeto-1 {
+    background-color: #5d2b02;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projetos-academicos .projeto-1 h4 {
+    color: #ffffff;
+}
+
+.projetos-academicos .projeto-1 p {
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.projetos-academicos .projeto-1 a {
+    color: #57d293;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.projetos-academicos .projeto-2 {
+    background-color: #4a7030;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projetos-academicos .projeto-2 h4 {
+    color: #ffffff;
+}
+
+.projetos-academicos .projeto-2 p {
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.projetos-academicos .projeto-2 a {
+    color: #231f1c;
+    text-decoration: none;
+    font-weight: bold;
 }
