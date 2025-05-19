@@ -88,7 +88,7 @@ section {
     margin-top: 15px;
 }
 
-#projetos{
+#projetos {
     background-color: #66bf00;
     padding: 20px;
     margin-bottom: 20px;
@@ -96,7 +96,7 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#projetos h2{
+#projetos h2 {
     color: #ffffff;
     font-weight: bold;
 }
@@ -157,7 +157,7 @@ section {
     font-weight: bold;
 }
 
-#redes{
+#redes {
     background-color: #66bf00;
     padding: 20px;
     margin-bottom: 20px;
@@ -165,7 +165,7 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#redes h2{
+#redes h2 {
     color: #ffffff;
     font-weight: bold;
 }
@@ -211,4 +211,11 @@ section {
     color: #57d293;
     text-decoration: none;
     font-weight: bold;
+}
+
+footer {
+    background-color: #9e2424;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
