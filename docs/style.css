@@ -153,7 +153,7 @@ section {
 }
 
 #redes {
-    background-color: #66bf00;
+    background-color: #378e70;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -165,8 +165,34 @@ section {
     font-weight: bold;
 }
 
-#passatempos {
+#projetos-pessoais {
     background-color: #66bf00;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#projetos-pessoais h2 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#experiencia {
+    background-color: #66bf00;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#experiencia h2 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#passatempos {
+    background-color: #378e70;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
